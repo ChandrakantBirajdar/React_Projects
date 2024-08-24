@@ -9,7 +9,6 @@ function Navigation() {
                 <li>Aboou</li>
                 <li>Profile</li>
                 <li>Contact</li>
-
             </ul>
 
         </div>

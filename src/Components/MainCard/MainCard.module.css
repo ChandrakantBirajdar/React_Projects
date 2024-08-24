@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+}
+.MainCard{
+    height: 90vh;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 750px;
+    height: 500px;
+    text-align: left;
+    padding: 10px;
+}
+.content h1{
+    font-size: 90px;;
+}
+.content div{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.content div button{
+    width: 160x;
+    height: 50px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-family: "Poppins", sans-serif;
+
+}
+.special{
+    width: 150x;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    border: 2px solid gray;
+    color: gray;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+
+}
+.content_image{
+    width: 650px;
+    height: 650px;
+    background-size: cover;
+}
+.content_image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+.para{
+    width: 430px;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    gap: 10px;
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+@media only screen and (max-width: 420px) {
+    body {
+      background-color: lightblue;
+    }
+    .MainCard{
+        flex-direction: column;
+    }
+    content{
+        width: 412px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .content h1{
+        font-size: 40px;;
+    }
+  }
