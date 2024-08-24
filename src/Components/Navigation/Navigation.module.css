@@ -1,0 +1,36 @@
+body{
+    border: 2px solid red;
+}
+.Navigation{
+    border: 2px solid black;
+    border-radius: 10px ;
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to right top, #6554dc, #7666d5, #8577cd, #9288c4, #9f99bb);
+    height: 90px;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.Navigation ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    font-weight: bold;
+}
+.Navigation ul li{
+    border: 2px solid rgb(47, 170, 241);
+    height: 30px;
+    width: 120px;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.Navigation ul  :hover{
+    background-color: white;
+}
+
